@@ -1,0 +1,157 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background: #343541;
+    margin: 0;
+}
+header {
+    background-color: #343541;
+    height: 90px;
+    position: fixed;
+    width: 100vh;
+}
+.humburger {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 28px;
+    height: 28px;
+}
+.humburger:hover {
+    margin-top: 42px;
+    margin-left: 12px;
+    background-color: #444654;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    border-radius: 10%;
+}
+.humburger .line {
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 20px 20px;
+}
+.menu {
+    width: 237px;
+    height: 100vh;
+    background-color: #202123;
+    position: fixed;
+    top: 0px;
+    left: -237px;
+    transition: left 1s ease;
+    z-index: 1;
+}
+.menu-dark {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background:#1c1d1f;
+    opacity: 0.5;
+    z-index: 1;
+}
+.list-menu li {
+    color: white;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding-top: 32px;
+}
+/* ПРОФИЛЬ */
+.profile img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: -75px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+} 
+.profile-info {
+    background-color: #444654;
+    width: 100%;
+    height: 600px;
+    border-radius: 30px/30px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.profile-info h2 {
+    padding-top: 70px;
+    text-align: center;
+}
+.profile-info h3 {
+    background-color: #515363;
+    padding: 5px 0;
+    text-align: center;
+}
+.profile-info p {
+    padding-left: 20px;
+}
+/* ЧАТ */
+.top {
+    height: 100px;
+}
+.user-message {
+    display: flex;
+    margin-bottom: 20px;
+}
+.user-message img {
+    width: 35px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.text-message {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    word-break: break-word;
+    margin-right: 15px;
+}
+.img-gpt-message {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.gpt-message {
+    display: flex;
+    background-color: #444654;
+    align-items: flex-start;
+}
+.down {
+    height: 110px;
+}
+
+.enter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #40414F;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.enter input {
+    background-color: #40414F;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    height: 67px;
+    margin: 0 15px;
+    width: 125%;
+}
+.enter img {
+    width: 25px;
+    height: 25px;
+    padding-top: 20px;
+    margin-right: 15px;
+}
+
